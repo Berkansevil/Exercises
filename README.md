@@ -1,3 +1,3 @@
-<h6 align="left">There isn’t anything to compare.<br>main and master are entirely different commit histories</h6>
+<h6 align="left">I am practicing exercises related to algorithms and object-oriented programming based on what I have learned.</h6>
 
 ###
