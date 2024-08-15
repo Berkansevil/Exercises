@@ -4,9 +4,7 @@ public class MajorityElements {
     public static void main(String[] args) {
         int nums[]={2,2,1,1,1,2,2};
         int major= majorityElement(nums);
-        for (int i = 0; i < major; i++) {
-            System.out.println(nums[i]);
-        }
+        System.out.println(major);
     }
 
     public static int majorityElement(int[] nums) {
