@@ -1,2 +1,5 @@
-package InterfaceDemo;public interface IEatable {
+package InterfaceDemo;
+
+public interface IEatable {
+    void eat();
 }

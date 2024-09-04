@@ -1,2 +1,8 @@
-package Interface;public class MySqlCustomerDal {
+package Interface;
+
+public class MySqlCustomerDal implements  ICustomerDal{
+    @Override
+    public void add() {
+        System.out.println("Add my sql");
+    }
 }

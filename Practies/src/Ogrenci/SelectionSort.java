@@ -33,6 +33,10 @@ public class SelectionSort {
             System.out.print(array[i]);
         }
     }
+
+    public static void main(String[] args) {
+        selectionSort();
+    }
     public static void sortArray(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Diziniz kaç boyutlu olsun : ");

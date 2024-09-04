@@ -1,2 +1,8 @@
-package InterfaceDemo;public class Robot {
+package InterfaceDemo;
+
+public class Robot implements IWorkable {
+    @Override
+    public void work() {
+
+    }
 }

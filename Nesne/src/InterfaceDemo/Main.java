@@ -1,2 +1,4 @@
-package InterfaceDemo;public class Main {
+package InterfaceDemo;
+
+public class Main {
 }

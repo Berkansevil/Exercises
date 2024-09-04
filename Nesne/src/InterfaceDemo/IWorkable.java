@@ -1,2 +1,6 @@
-package InterfaceDemo;public interface IWorkable {
+package InterfaceDemo;
+
+public interface IWorkable {
+    void work();
+
 }

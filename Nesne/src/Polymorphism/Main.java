@@ -8,22 +8,30 @@ public class Main {
     }
 
     public static void main(String[] args) {
-    /*   User user=new User("Berkan","Türkiye",24);
-        User user1=new PreimumUser(600,"Berkan","Fransa",20);
-        User user2=new NormalUser("Ahmet","Almanya",19 );
+      User user=new User("Berkan","Türkiye",24);
+        User userPreimum=new PreimumUser(600,"Berkan","Fransa",20);
+        /*
+        User userPreimum ;
+        PreimumUser preimumUser=new PreimumUser();
+        user1=preimumUser;
+        UpCasting
+         */
+        User userNormal=new NormalUser("Ahmet","Almanya",19 );
+
+
 
         System.out.println("-- User Information --");
         showUserInfo(user);
         System.out.println("-- Preımuım User Information --");
-        showUserInfo(user1);
+        showUserInfo(userPreimum);
         System.out.println("--Normal User ınformaiton --");
-        showUserInfo(user2);
+        showUserInfo(userNormal);
 
 
-     */
 
-       CustomerManager customerManager=new CustomerManager(new EmailLogger());
-       customerManager.add();
+
+       //  CustomerManager customerManager=new CustomerManager(new EmailLogger());
+      // customerManager.add();
     }
 
 

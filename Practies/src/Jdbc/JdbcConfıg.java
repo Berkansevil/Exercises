@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class JdbcConfıg {
-    public static final String DATABASE_NAME = "dvdrental";
+    public static final String DATABASE_NAME = "University";
     public static final String DATABASE_USERNAME = "postgres";
     public static final String DATABASE_PASSWORD = "postgres";
     public static final String DATABASE_URL = "jdbc:postgresql://localhost:5432/" + DATABASE_NAME;
@@ -14,7 +14,7 @@ public class JdbcConfıg {
     public static void main(String[] args) {
         Connection connection = null;
         Statement statement = null;
-        String sql = "SELECT * FROM dvdrental";
+        String sql = "SELECT * FROM University";
         try {
             connection = DriverManager.getConnection(DATABASE_URL, DATABASE_USERNAME, DATABASE_PASSWORD);
             statement = connection.createStatement();

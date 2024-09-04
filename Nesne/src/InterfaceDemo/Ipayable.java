@@ -1,2 +1,5 @@
-package InterfaceDemo;public interface Ipayable {
+package InterfaceDemo;
+
+public interface Ipayable {
+    void pay();
 }

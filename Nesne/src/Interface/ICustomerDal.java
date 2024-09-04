@@ -1,2 +1,5 @@
-package Interface;public interface ICustomerDal {
+package Interface;
+
+public interface ICustomerDal {
+    void add();
 }
