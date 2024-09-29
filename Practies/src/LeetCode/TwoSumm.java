@@ -15,6 +15,7 @@ public class TwoSumm {
                 return new int[]{nums[left], nums[right]};
             }
         }
+
         return new int[]{};
     }
 
